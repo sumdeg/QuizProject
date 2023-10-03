@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 
 const Introduce = () => {
     const difficulty=["easy","medium","hard"]
-    const [difficultyChange,setDifficultyChange]=useState('')
+    const [difficultyChange,setDifficultyChange]=useState('easy')
     const navigate=useNavigate()
     const TOTAL_QUESTİONS=10
 
